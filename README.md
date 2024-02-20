@@ -1,34 +1,13 @@
-# create-svelte
+# Long range brilliance
 
-## Generate static site using svelte SSG
+A responsive scatterplot implemented with [Svelte](https://svelte.dev) and [D3](https://d3js.org/) showing
+minutes played and 3-point field goals made by the best 3-point shooters in NBA history.
 
-To assist you in creating a static webpage for GitHub Pages using Svelte, we have developed a template for you: [ShaokangJiang/svelte-template (github.com)](https://github.com/ShaokangJiang/svelte-template).
+Hovering over the chart causes figures to appear. The mouse pointer does not have to be placed over each circle to reveal stats about the corresponding player.
+Associated stats will be shown when the pointer is close enough to one of the circles. This feature, which improves the user experience, was implemented with a [quadtree](https://github.com/d3/d3-quadtree).
 
-Please follow the link provided, and initiate the creation of a new repository.
+This project was bootstrapped with the [Svelte app template](https://github.com/sveltejs/template). The player selector was implemented with [svelte-select](https://github.com/rob-balfre/svelte-select).
 
-![image-20240210175403813](./assets/image-20240210175403813.png)
+## Data source
 
-After GitHub completes the cloning process, navigate to the settings page. On the left panel, under the "Pages" tab, locate the "Source" section and select "GitHub Actions" as the source. 
-
-Clone this repository and proceed with your work. Upon completion, commit and push your changes. The corresponding GitHub Actions will then execute, building a static website hosted at `https://your-username.github.io/your-repo-name` for you.
-
-![image-20240210175104365](./assets/image-20240210175104365.png)
-
-### Migrate from your project
-
-If you have started on the project and want to switch to using this template, you can copy your `src` folder, go to the local clone of your version of this template, then paste it. When it says the file exists, simply click replace, and you can continue working on your version of this template.
-
-## Setup
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building static site
-
-Just push to github. 
+[NBA](https://www.nba.com/stats/)
