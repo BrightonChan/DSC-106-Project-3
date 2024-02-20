@@ -27303,7 +27303,7 @@ var app = (function () {
     			line = svg_element("line");
     			text_1 = svg_element("text");
     			t = text$1(t_value);
-    			attr_dev(line, "class", "axis__tick svelte-1pu2axe");
+    			attr_dev(line, "class", "axis__tick svelte-1iwje6q");
     			attr_dev(line, "x1", 0);
     			attr_dev(line, "x2", -6);
     			add_location(line, file$5, 19, 6, 477);
@@ -27372,13 +27372,13 @@ var app = (function () {
 
     			text_1 = svg_element("text");
     			t = text$1(/*label*/ ctx[1]);
-    			attr_dev(line, "class", "axis__line svelte-1pu2axe");
+    			attr_dev(line, "class", "axis__line svelte-1iwje6q");
     			attr_dev(line, "x1", 0);
     			attr_dev(line, "x2", 0);
     			attr_dev(line, "y1", /*yMin*/ ctx[4]);
     			attr_dev(line, "y2", /*yMax*/ ctx[5]);
     			add_location(line, file$5, 15, 2, 334);
-    			attr_dev(text_1, "class", "axis__label svelte-1pu2axe");
+    			attr_dev(text_1, "class", "axis__label svelte-1iwje6q");
     			attr_dev(text_1, "dx", 4);
     			attr_dev(text_1, "y", -25);
     			attr_dev(text_1, "dy", "0.8em");
